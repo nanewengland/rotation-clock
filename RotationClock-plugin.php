@@ -86,7 +86,7 @@ function rotationclock_func( $atts ){
 		$pic = $dir . "img/RotationClockNoHands.jpg";
 	}
 
-	echo "<img src=\"{$pic}\" style=\"float: right\">";
+	echo "<img src=\"{$pic}\" style=\"float: right\" class=\"rotation-clock\" id=\"rotation-clock-img\">";
 
 }
 
